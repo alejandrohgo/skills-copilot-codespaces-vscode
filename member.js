@@ -1,0 +1,29 @@
+function skillsMember() {
+    var skills = document.getElementById("skills");
+    var member = document.getElementById("member");
+    var memberName = document.getElementById("memberName");
+    var memberNameValue = memberName.value;
+    var memberNameValueLength = memberNameValue.length;
+    var memberNameValueLengthMax = 10;
+    var memberNameValueLengthMin = 2;
+    var memberNameValueLengthMaxMessage = "名前は10文字以内で入力してください";
+    var memberNameValueLengthMinMessage = "名前は2文字以上で入力してください";
+    var memberNameValueLengthMessage = "名前は2文字以上10文字以内で入力してください";
+    var memberNameValueLengthMessageColor = "red";
+    var memberNameValueLengthMessageFontSize = "12px";
+    var memberNameValueLengthMessageFontWeight = "bold";
+    var memberNameValueLengthMessageFontFamily = "sans-serif";
+    var memberNameValueLengthMessagePadding = "0 0 0 10px";
+    var memberNameValueLengthMessageMargin = "0 0 0 0";
+    var memberNameValueLengthMessagePosition = "absolute";
+    var memberNameValueLengthMessageTop = "0";
+    var memberNameValueLengthMessageLeft = "0";
+    var memberNameValueLengthMessageZIndex = "1";
+    var memberNameValueLengthMessageId = "memberNameValueLengthMessage";
+    var memberNameValueLengthMessageClass = "memberNameValueLengthMessage";
+    var memberNameValueLengthMessageElement = document.createElement("p");
+    var memberNameValueLengthMessageElementId = document.getElementById(memberNameValueLengthMessageId);
+    var memberNameValueLengthMessageElementClass = document.getElementsByClassName(memberNameValueLengthMessageClass);
+    var memberNameValueLengthMessageElementText = document.createTextNode(memberNameValueLengthMessage);
+    var memberNameValueLengthMessageElementStyle = memberNameValueLengthMessageElement;
+}
